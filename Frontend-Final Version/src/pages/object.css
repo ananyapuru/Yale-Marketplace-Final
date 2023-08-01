@@ -1,0 +1,61 @@
+/* General styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.05);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Carousel styling */
+  .carousel-container {
+    position: relative;
+    width: 600px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Table container styling */
+  .table-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Table and text styling */
+  .table {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  .text {
+    font-weight: 300;
+  }
+  
+  .text-bold {
+    font-weight: 500;
+  }
+  
+  /* Tag styling */
+  .tag {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .blue {
+    background-color: #bee3f8;
+  }
+  
+  .orange {
+    background-color: #feebc8;
+  }
+  

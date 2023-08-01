@@ -1,0 +1,27 @@
+.object-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Add this rule to center-align the content */
+  }
+  
+  .object-content {
+    margin: 50px auto;
+    display: flex; /* Add this rule to create a horizontal layout */
+    justify-content: space-between; /* Add this rule to space out the child elements */
+    max-width: 1200px; /* Add this rule to set a maximum width for the content */
+    width: 100%; /* Add this rule to make sure the content takes up the full width */
+  }
+  
+  .carousel-image {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+  }
+  
+  .object-text {
+    font-size: 1.2rem;
+  }
+  

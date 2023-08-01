@@ -1,0 +1,52 @@
+.cont{
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    left:0;
+    right: 0;
+    background: linear-gradient(to bottom, #000000, #00356B);
+    height: 95px;
+    z-index: 10;
+    padding: 15px 0;
+    margin-bottom: 10px;
+}
+
+.leftBar .header{
+    margin: auto auto auto 10px;
+    color: white;
+    width: 100px;
+}
+
+.rightBar{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+    align-items:center;
+    gap:5px;
+}
+
+.rightBar li{
+    height : 80%;
+    width: fit-content;
+}
+
+.navOption{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+
+.navOption:hover {
+    color: white !important;
+}
+
+.innerIcon{
+    transition: 0.25s ease;
+}
+
+.navOption:hover .innerIcon{
+    border-bottom: 3px solid white;
+}

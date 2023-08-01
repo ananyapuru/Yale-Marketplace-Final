@@ -1,0 +1,148 @@
+body {
+ 
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: center; */
+  /* align-items: center; */
+  height: 100vh;
+  width: 100vw;
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
+  
+}
+
+
+
+*{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+}
+.circle {
+position: absolute;
+border-radius: 50%;
+background: white;
+animation: ripple 15s infinite;
+box-shadow: 0px 0px 1px 0px #508fb9;
+}
+
+.ripple-background{
+position: absolute;
+inset: 0;
+z-index: 0;
+background-color:  #001223;
+}
+
+.small {
+width: 200px;
+height: 200px;
+left: -100px;
+bottom: -100px;
+}
+
+.large {
+width: 600px;
+height: 600px;
+left: -300px;
+bottom: -300px;
+}
+
+.xlarge {
+width: 800px;
+height: 800px;
+left: -400px;
+bottom: -400px;
+}
+
+.xxlarge {
+width: 1000px;
+height: 1000px;
+left: -500px;
+bottom: -500px;
+}
+
+.shade1 {
+opacity: 0.2;
+}
+.shade2 {
+opacity: 0.5;
+}
+
+.shade3 {
+opacity: 0.7;
+}
+
+.shade4 {
+opacity: 0.8;
+}
+
+.shade5 {
+opacity: 0.9;
+}
+
+@keyframes ripple {
+0% {
+  transform: scale(0.8);
+}
+
+50% {
+  transform: scale(1.2);
+}
+
+100% {
+  transform: scale(0.8);
+}
+}
+
+#login-button {
+display: inline-block;
+width: 120px;
+height: 40px;
+display: inline-block;
+padding: 0.35em 1.2em;
+border: 0.1em solid #FFFFFF;
+margin: 20px auto 0.3em auto;
+border-radius: 0.12em;
+box-sizing: border-box;
+text-decoration: none;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+color: darkblue;
+background-color: #FFFFFF;
+text-align: center;
+transition: all 0.2s;
+}
+
+#login-button:hover {
+color: seagreen;
+background-color: #FFFFFF;
+cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid white;
+  background-color: #508fb9;
+  color: white;
+  margin-top: 200px;
+}
+
+input:hover {
+  background-color: rgb(10, 195, 68);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* adjust margin-top as needed */
+input + p {
+  margin-top: 50px;
+}
+
+
+@media all and (max-width:30em) {
+#login-button {
+  display: block;
+  margin: 0.4em auto;
+}
+}

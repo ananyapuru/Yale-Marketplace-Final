@@ -1,0 +1,12 @@
+.form-control:focus {
+    box-shadow: none;
+  }
+  
+  #objecttitle:hover, #price:hover, #objecttags:hover {
+    background-color: white;
+  }
+  
+  #image:hover {
+    background-color: white;
+  }
+  

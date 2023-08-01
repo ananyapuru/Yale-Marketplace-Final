@@ -1,0 +1,15 @@
+.bg-black {
+  background-color: white;
+}
+.bg-light{
+  background-color: #dadcde;
+}
+.bg-light-primary{
+  background-color: #191659 !important;
+}
+.text-light-primary{
+  color: #191659 !important;
+}
+a {
+  text-decoration: none;
+}
